@@ -2,7 +2,7 @@ from flask import Flask
 import telebot
 from threading import Thread
 app = Flask(__name__)
-bot = telebot.TeleBot("8713167991:AAEGSRr8VfpsAJTxeqJpLZzV7nHHvmLoUL8")
+bot = telebot.TeleBot("")
 users = set()
 
 @bot.message_handler(commands=["start"])
